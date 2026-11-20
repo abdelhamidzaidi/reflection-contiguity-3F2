@@ -46,7 +46,7 @@ venv/bin/python run_all.py                       # Windows: venv\Scripts\python 
 
 `run_all.py` runs scripts S3-S11 and S13 and rewrites `output/` and `figures/`. A single script can be run on its own, for example `venv/bin/python table3_quarter_values.py`.
 
-Reproduction check: in a fresh virtual environment created from `requirements.txt`, `run_all.py` regenerated every file in `output/` and `figures/` byte for byte. The only exception is the line of machine-dependent timings printed by `verify_identities.py`. The printed rows agree with Tables 2, 3, 4 and B1 of the article, and the floor counts printed by the figure scripts agree with the figure captions.
+Reproduction check: in a fresh virtual environment created from `requirements.txt`, `run_all.py` regenerated every file in `output/` byte for byte. The only exception is the line of machine-dependent timings printed by `verify_identities.py`. The figures in `figures/` are regenerated with the same content; their exact bounding boxes, and hence their bytes, can differ slightly with the fonts installed on the machine. The printed rows agree with Tables 2, 3, 4 and B1 of the article, and the floor counts printed by the figure scripts agree with the figure captions.
 
 ## Scripts
 
