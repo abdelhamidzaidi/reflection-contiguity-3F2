@@ -38,6 +38,6 @@ def save(fig, name):
     """Save `fig` as figures/<name>.pdf and return the path."""
     os.makedirs(FIG_DIR, exist_ok=True)
     path = os.path.join(FIG_DIR, name + ".pdf")
-    fig.savefig(path)
+    fig.savefig(path, metadata={"CreationDate": None, "ModDate": None})  # reproducible bytes
     plt.close(fig)
     return os.path.normpath(path)
