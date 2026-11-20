@@ -1,0 +1,43 @@
+[1] Lemma 4: Omega_alpha(beta) = pi cos(pi beta) / (Gamma(alpha+beta) Gamma(1+alpha-beta))
+  alpha = 0.7: max homogeneous contiguous residual               6.84e-48
+  alpha = 0.7: max homogeneous reflection residual               7.71e-50
+  alpha = 0.7: |Omega(2alpha) - cos(2 pi a) sin(pi a) G(a)/G(3a)| 6.68e-52
+  alpha = 0.6667: max homogeneous contiguous residual            5.64e-48
+  alpha = 0.6667: max homogeneous reflection residual            4.11e-48
+  alpha = 0.6667: |Omega(2alpha) - cos(2 pi a) sin(pi a) G(a)/G(3a)| 2.67e-51
+  alpha = 1.3: max homogeneous contiguous residual               3.06e-48
+  alpha = 1.3: max homogeneous reflection residual               2.06e-48
+  alpha = 1.3: |Omega(2alpha) - cos(2 pi a) sin(pi a) G(a)/G(3a)| 4.18e-52
+  alpha = 2.35: max homogeneous contiguous residual              2.05e-48
+  alpha = 2.35: max homogeneous reflection residual              7.56e-51
+  alpha = 2.35: |Omega(2alpha) - cos(2 pi a) sin(pi a) G(a)/G(3a)| 1.31e-54
+  alpha = (0.8 + 0.3j): max homogeneous contiguous residual      8.76e-48
+  alpha = (0.8 + 0.3j): max homogeneous reflection residual      2.94e-50
+  alpha = (0.8 + 0.3j): |Omega(2alpha) - cos(2 pi a) sin(pi a) G(a)/G(3a)| 5.98e-51
+  alpha = 0.7, beta = 10.4: |Omega| / (Gamma(b-a)/Gamma(b+a))    0.25
+  alpha = 0.7, beta = 40.4: |Omega| / (Gamma(b-a)/Gamma(b+a))    0.25
+  alpha = 0.7, beta = 160.4: |Omega| / (Gamma(b-a)/Gamma(b+a))   0.25
+[2] Remark 2: alpha = 2/3, piecewise form of Omega on C_alpha and joining points
+  max deviation from (46)-(47) on 28 points                      1.07e-50
+  constant -cos(pi a) sin(2 pi a) (non-zero)                     -0.433
+  join at beta = 1 - alpha: (a+b-1) W(b) - (b-a-1) W(b-1)        0.0
+  join at beta = 1 + alpha: (a+b-1) W(b) - (b-a-1) W(b-1)        -2.35e-51
+[3] Theorem 3: growth on the line Re(beta) = 1/2, alpha = 0.7
+  y =   5:  |U| =   0.271179   |Omega| / ((1/4) e^(2 pi y) y^(-2a)) = 0.99775992
+  y =  10:  |U| =   0.144512   |Omega| / ((1/4) e^(2 pi y) y^(-2a)) = 0.99944
+  y =  20:  |U| =  0.0757672   |Omega| / ((1/4) e^(2 pi y) y^(-2a)) = 0.99986
+  y =  40:  |U| =  0.0392536   |Omega| / ((1/4) e^(2 pi y) y^(-2a)) = 0.999965
+[4] Proposition 4: 0 < alpha <= 1/2
+  alpha = 0.3, beta = 0.37: reflection / contiguous              1.07e-50
+  alpha = 0.3, beta = 1.6: reflection / contiguous               4.01e-51
+  alpha = 0.3, beta = -0.45: reflection / contiguous             1.87e-50
+  alpha = 0.3333, beta = 0.37: reflection / contiguous           1.07e-50
+  alpha = 0.3333, beta = 1.6: reflection / contiguous            8.02e-51
+  alpha = 0.3333, beta = -0.45: reflection / contiguous          2.0e-51
+  alpha = 0.45, beta = 0.37: reflection / contiguous             0.0
+  alpha = 0.45, beta = 1.6: reflection / contiguous              2.67e-51
+  alpha = 0.45, beta = -0.45: reflection / contiguous            1.34e-51
+  |F(1/4) - Gamma(1/4)^4/(32 pi)|                                5.84e-51
+  |Eq. (61) with q = 1 - Gamma(1/4)^4/(32 pi)|                   2.67e-51
+  |F(1/2) - 2 log(2)|                                            5.16e-52
+  alpha = 1/4: relative error of (90) by nested quadrature (tau=0, eta=1) 2.14e-9

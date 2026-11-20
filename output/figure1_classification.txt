@@ -1,0 +1,3 @@
+alpha = 0.7: 0 of 41 residuals below the floor 1e-32, max residual 5.916e-31
+alpha = 0.75: 0 of 41 residuals below the floor 1e-32, max residual 2.163e+00
+saved figures/figure1.pdf

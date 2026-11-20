@@ -1,0 +1,26 @@
+[
+ {
+  "working_precision_digits": 120,
+  "implementation": "mpmath 1.3.0 pslq",
+  "scaling": "none",
+  "tolerance": "2.45455e-91",
+  "maxcoeff": 100000,
+  "maxsteps": 10000000,
+  "iterations": 4417,
+  "final_norm_bound": "112060",
+  "termination": "lower bound for the norm of a relation exceeded maxcoeff",
+  "relation": null
+ },
+ {
+  "working_precision_digits": 240,
+  "implementation": "mpmath 1.3.0 pslq",
+  "scaling": "none",
+  "tolerance": "2.40992e-181",
+  "maxcoeff": 100000,
+  "maxsteps": 10000000,
+  "iterations": 4362,
+  "final_norm_bound": "101071",
+  "termination": "lower bound for the norm of a relation exceeded maxcoeff",
+  "relation": null
+ }
+]

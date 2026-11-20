@@ -1,0 +1,250 @@
+Certificate for Proposition 1: condition pairs c0 + c1*alpha in Z
+Orbit elements are parameter sets identified up to permutations of the
+numerator and of the denominator parameters (function canon: both lists are
+sorted after symbolic expansion). Every ordering of each set is listed.
+set | pattern | ordering | conditions | solution set
+# T1: numerator ('1', '2*alpha', '1 - alpha'), denominator ('alpha + 1', '2*alpha + 1')
+T1 | two differences | pairs (num 1, den alpha + 1), (num 2*alpha, den 2*alpha + 1) | 0 + (1) alpha in Z; 1 + (0) alpha in Z | 0 + 1 Z
+T1 | two differences | pairs (num 1, den 2*alpha + 1), (num 2*alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | two differences | pairs (num 1, den alpha + 1), (num 1 - alpha, den 2*alpha + 1) | 0 + (1) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T1 | two differences | pairs (num 1, den 2*alpha + 1), (num 1 - alpha, den alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T1 | two differences | pairs (num 2*alpha, den alpha + 1), (num 1, den 2*alpha + 1) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T1 | two differences | pairs (num 2*alpha, den 2*alpha + 1), (num 1, den alpha + 1) | 1 + (0) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T1 | two differences | pairs (num 2*alpha, den alpha + 1), (num 1 - alpha, den 2*alpha + 1) | 1 + (-1) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T1 | two differences | pairs (num 2*alpha, den 2*alpha + 1), (num 1 - alpha, den alpha + 1) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T1 | two differences | pairs (num 1 - alpha, den alpha + 1), (num 1, den 2*alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T1 | two differences | pairs (num 1 - alpha, den 2*alpha + 1), (num 1, den alpha + 1) | 0 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T1 | two differences | pairs (num 1 - alpha, den alpha + 1), (num 2*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T1 | two differences | pairs (num 1 - alpha, den 2*alpha + 1), (num 2*alpha, den alpha + 1) | 0 + (3) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1, b=2*alpha, c=1 - alpha, d=alpha + 1, e=2*alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T1 | Watson | a=1, b=2*alpha, c=1 - alpha, d=alpha + 1, e=2*alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T1 | Whipple | a=1, b=2*alpha, c=1 - alpha, d=alpha + 1, e=2*alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1, b=2*alpha, c=1 - alpha, d=2*alpha + 1, e=alpha + 1 | -1 + (4) alpha in Z; 0 + (0) alpha in Z | 0 + 1/4 Z
+T1 | Watson | a=1, b=2*alpha, c=1 - alpha, d=2*alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T1 | Whipple | a=1, b=2*alpha, c=1 - alpha, d=2*alpha + 1, e=alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1, b=1 - alpha, c=2*alpha, d=alpha + 1, e=2*alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T1 | Watson | a=1, b=1 - alpha, c=2*alpha, d=alpha + 1, e=2*alpha + 1 | -1/2 + (3/2) alpha in Z; 1 + (-2) alpha in Z | 1 + 2 Z
+T1 | Whipple | a=1, b=1 - alpha, c=2*alpha, d=alpha + 1, e=2*alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1, b=1 - alpha, c=2*alpha, d=2*alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T1 | Watson | a=1, b=1 - alpha, c=2*alpha, d=2*alpha + 1, e=alpha + 1 | -1/2 + (5/2) alpha in Z; 1 + (-3) alpha in Z | 1 + 2 Z
+T1 | Whipple | a=1, b=1 - alpha, c=2*alpha, d=2*alpha + 1, e=alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=2*alpha, b=1, c=1 - alpha, d=alpha + 1, e=2*alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | Watson | a=2*alpha, b=1, c=1 - alpha, d=alpha + 1, e=2*alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T1 | Whipple | a=2*alpha, b=1, c=1 - alpha, d=alpha + 1, e=2*alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=2*alpha, b=1, c=1 - alpha, d=2*alpha + 1, e=alpha + 1 | 1 + (0) alpha in Z; 1 + (-2) alpha in Z | 0 + 1/2 Z
+T1 | Watson | a=2*alpha, b=1, c=1 - alpha, d=2*alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T1 | Whipple | a=2*alpha, b=1, c=1 - alpha, d=2*alpha + 1, e=alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=2*alpha, b=1 - alpha, c=1, d=alpha + 1, e=2*alpha + 1 | 1 + (-2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T1 | Watson | a=2*alpha, b=1 - alpha, c=1, d=alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T1 | Whipple | a=2*alpha, b=1 - alpha, c=1, d=alpha + 1, e=2*alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=2*alpha, b=1 - alpha, c=1, d=2*alpha + 1, e=alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | Watson | a=2*alpha, b=1 - alpha, c=1, d=2*alpha + 1, e=alpha + 1 | 0 + (3/2) alpha in Z; -1 + (1) alpha in Z | 0 + 2 Z
+T1 | Whipple | a=2*alpha, b=1 - alpha, c=1, d=2*alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1 - alpha, b=1, c=2*alpha, d=alpha + 1, e=2*alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T1 | Watson | a=1 - alpha, b=1, c=2*alpha, d=alpha + 1, e=2*alpha + 1 | -1/2 + (3/2) alpha in Z; 1 + (-2) alpha in Z | 1 + 2 Z
+T1 | Whipple | a=1 - alpha, b=1, c=2*alpha, d=alpha + 1, e=2*alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1 - alpha, b=1, c=2*alpha, d=2*alpha + 1, e=alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T1 | Watson | a=1 - alpha, b=1, c=2*alpha, d=2*alpha + 1, e=alpha + 1 | -1/2 + (5/2) alpha in Z; 1 + (-3) alpha in Z | 1 + 2 Z
+T1 | Whipple | a=1 - alpha, b=1, c=2*alpha, d=2*alpha + 1, e=alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1 - alpha, b=2*alpha, c=1, d=alpha + 1, e=2*alpha + 1 | -1 + (4) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T1 | Watson | a=1 - alpha, b=2*alpha, c=1, d=alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T1 | Whipple | a=1 - alpha, b=2*alpha, c=1, d=alpha + 1, e=2*alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T1 | Dixon | a=1 - alpha, b=2*alpha, c=1, d=2*alpha + 1, e=alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T1 | Watson | a=1 - alpha, b=2*alpha, c=1, d=2*alpha + 1, e=alpha + 1 | 0 + (3/2) alpha in Z; -1 + (1) alpha in Z | 0 + 2 Z
+T1 | Whipple | a=1 - alpha, b=2*alpha, c=1, d=2*alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+# T2: numerator ('alpha', '2*alpha', '2*alpha'), denominator ('4*alpha', 'alpha + 1')
+T2 | two differences | pairs (num alpha, den 4*alpha), (num 2*alpha, den alpha + 1) | 0 + (3) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T2 | two differences | pairs (num alpha, den alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T2 | two differences | pairs (num alpha, den 4*alpha), (num 2*alpha, den alpha + 1) | 0 + (3) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T2 | two differences | pairs (num alpha, den alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T2 | two differences | pairs (num 2*alpha, den 4*alpha), (num alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T2 | two differences | pairs (num 2*alpha, den alpha + 1), (num alpha, den 4*alpha) | 1 + (-1) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T2 | two differences | pairs (num 2*alpha, den 4*alpha), (num 2*alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T2 | two differences | pairs (num 2*alpha, den alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T2 | two differences | pairs (num 2*alpha, den 4*alpha), (num alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T2 | two differences | pairs (num 2*alpha, den alpha + 1), (num alpha, den 4*alpha) | 1 + (-1) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T2 | two differences | pairs (num 2*alpha, den 4*alpha), (num 2*alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T2 | two differences | pairs (num 2*alpha, den alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T2 | Watson | a=alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1/2 + (5/2) alpha in Z; 1 + (-3) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=alpha, b=2*alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T2 | Watson | a=alpha, b=2*alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=alpha, b=2*alpha, c=2*alpha, d=alpha + 1, e=4*alpha | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T2 | Watson | a=alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1/2 + (5/2) alpha in Z; 1 + (-3) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=alpha, b=2*alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T2 | Watson | a=alpha, b=2*alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=alpha, b=2*alpha, c=2*alpha, d=alpha + 1, e=4*alpha | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Watson | a=2*alpha, b=alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1/2 + (5/2) alpha in Z; 1 + (-3) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=2*alpha, b=alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T2 | Watson | a=2*alpha, b=alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=2*alpha, b=alpha, c=2*alpha, d=alpha + 1, e=4*alpha | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=2*alpha, c=alpha, d=4*alpha, e=alpha + 1 | -1 + (4) alpha in Z; 0 + (0) alpha in Z | 0 + 1/4 Z
+T2 | Watson | a=2*alpha, b=2*alpha, c=alpha, d=4*alpha, e=alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-1) alpha in Z | empty
+T2 | Whipple | a=2*alpha, b=2*alpha, c=alpha, d=4*alpha, e=alpha + 1 | -1 + (4) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=2*alpha, c=alpha, d=alpha + 1, e=4*alpha | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T2 | Watson | a=2*alpha, b=2*alpha, c=alpha, d=alpha + 1, e=4*alpha | 1/2 + (-1) alpha in Z; 0 + (2) alpha in Z | 1/2 + 1 Z
+T2 | Whipple | a=2*alpha, b=2*alpha, c=alpha, d=alpha + 1, e=4*alpha | -1 + (4) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Watson | a=2*alpha, b=alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1/2 + (5/2) alpha in Z; 1 + (-3) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=2*alpha, b=alpha, c=2*alpha, d=4*alpha, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T2 | Watson | a=2*alpha, b=alpha, c=2*alpha, d=alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T2 | Whipple | a=2*alpha, b=alpha, c=2*alpha, d=alpha + 1, e=4*alpha | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=2*alpha, c=alpha, d=4*alpha, e=alpha + 1 | -1 + (4) alpha in Z; 0 + (0) alpha in Z | 0 + 1/4 Z
+T2 | Watson | a=2*alpha, b=2*alpha, c=alpha, d=4*alpha, e=alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-1) alpha in Z | empty
+T2 | Whipple | a=2*alpha, b=2*alpha, c=alpha, d=4*alpha, e=alpha + 1 | -1 + (4) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T2 | Dixon | a=2*alpha, b=2*alpha, c=alpha, d=alpha + 1, e=4*alpha | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T2 | Watson | a=2*alpha, b=2*alpha, c=alpha, d=alpha + 1, e=4*alpha | 1/2 + (-1) alpha in Z; 0 + (2) alpha in Z | 1/2 + 1 Z
+T2 | Whipple | a=2*alpha, b=2*alpha, c=alpha, d=alpha + 1, e=4*alpha | -1 + (4) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+# T3: numerator ('2*alpha', '2*alpha', '3*alpha'), denominator ('4*alpha', '2*alpha + 1')
+T3 | two differences | pairs (num 2*alpha, den 4*alpha), (num 2*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T3 | two differences | pairs (num 2*alpha, den 2*alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T3 | two differences | pairs (num 2*alpha, den 4*alpha), (num 3*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T3 | two differences | pairs (num 2*alpha, den 2*alpha + 1), (num 3*alpha, den 4*alpha) | 1 + (0) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T3 | two differences | pairs (num 2*alpha, den 4*alpha), (num 2*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T3 | two differences | pairs (num 2*alpha, den 2*alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T3 | two differences | pairs (num 2*alpha, den 4*alpha), (num 3*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T3 | two differences | pairs (num 2*alpha, den 2*alpha + 1), (num 3*alpha, den 4*alpha) | 1 + (0) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T3 | two differences | pairs (num 3*alpha, den 4*alpha), (num 2*alpha, den 2*alpha + 1) | 0 + (1) alpha in Z; 1 + (0) alpha in Z | 0 + 1 Z
+T3 | two differences | pairs (num 3*alpha, den 2*alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | two differences | pairs (num 3*alpha, den 4*alpha), (num 2*alpha, den 2*alpha + 1) | 0 + (1) alpha in Z; 1 + (0) alpha in Z | 0 + 1 Z
+T3 | two differences | pairs (num 3*alpha, den 2*alpha + 1), (num 2*alpha, den 4*alpha) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=2*alpha, b=2*alpha, c=3*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (4) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=2*alpha, c=3*alpha, d=4*alpha, e=2*alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-4) alpha in Z | 1/4 + 1/2 Z
+T3 | Whipple | a=2*alpha, b=2*alpha, c=3*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (4) alpha in Z; 0 + (0) alpha in Z | 0 + 1/4 Z
+T3 | Dixon | a=2*alpha, b=2*alpha, c=3*alpha, d=2*alpha + 1, e=4*alpha | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=2*alpha, c=3*alpha, d=2*alpha + 1, e=4*alpha | 1/2 + (0) alpha in Z; 0 + (-2) alpha in Z | empty
+T3 | Whipple | a=2*alpha, b=2*alpha, c=3*alpha, d=2*alpha + 1, e=4*alpha | -1 + (4) alpha in Z; 0 + (0) alpha in Z | 0 + 1/4 Z
+T3 | Dixon | a=2*alpha, b=3*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=3*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1/2 + (3/2) alpha in Z; 1 + (-2) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=2*alpha, b=3*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=2*alpha, b=3*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=3*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=2*alpha, b=3*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=2*alpha, b=2*alpha, c=3*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (4) alpha in Z; 0 + (3) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=2*alpha, c=3*alpha, d=4*alpha, e=2*alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-4) alpha in Z | 1/4 + 1/2 Z
+T3 | Whipple | a=2*alpha, b=2*alpha, c=3*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (4) alpha in Z; 0 + (0) alpha in Z | 0 + 1/4 Z
+T3 | Dixon | a=2*alpha, b=2*alpha, c=3*alpha, d=2*alpha + 1, e=4*alpha | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=2*alpha, c=3*alpha, d=2*alpha + 1, e=4*alpha | 1/2 + (0) alpha in Z; 0 + (-2) alpha in Z | empty
+T3 | Whipple | a=2*alpha, b=2*alpha, c=3*alpha, d=2*alpha + 1, e=4*alpha | -1 + (4) alpha in Z; 0 + (0) alpha in Z | 0 + 1/4 Z
+T3 | Dixon | a=2*alpha, b=3*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=3*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1/2 + (3/2) alpha in Z; 1 + (-2) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=2*alpha, b=3*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=2*alpha, b=3*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T3 | Watson | a=2*alpha, b=3*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=2*alpha, b=3*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=3*alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T3 | Watson | a=3*alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1/2 + (3/2) alpha in Z; 1 + (-2) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=3*alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=3*alpha, b=2*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T3 | Watson | a=3*alpha, b=2*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=3*alpha, b=2*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=3*alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T3 | Watson | a=3*alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1/2 + (3/2) alpha in Z; 1 + (-2) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=3*alpha, b=2*alpha, c=2*alpha, d=4*alpha, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T3 | Dixon | a=3*alpha, b=2*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T3 | Watson | a=3*alpha, b=2*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | 1/2 + (-1/2) alpha in Z; 0 + (0) alpha in Z | 1 + 2 Z
+T3 | Whipple | a=3*alpha, b=2*alpha, c=2*alpha, d=2*alpha + 1, e=4*alpha | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+# T4: numerator ('1', '1', '3*alpha'), denominator ('2*alpha + 1', '2*alpha + 1')
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 3*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 3*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 3*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | two differences | pairs (num 1, den 2*alpha + 1), (num 3*alpha, den 2*alpha + 1) | 0 + (2) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | two differences | pairs (num 3*alpha, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | two differences | pairs (num 3*alpha, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | two differences | pairs (num 3*alpha, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | two differences | pairs (num 3*alpha, den 2*alpha + 1), (num 1, den 2*alpha + 1) | 1 + (-1) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-4) alpha in Z | 1/4 + 1/2 Z
+T4 | Whipple | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 1 + (0) alpha in Z; 1 + (-2) alpha in Z | 0 + 1/2 Z
+T4 | Dixon | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-4) alpha in Z | 1/4 + 1/2 Z
+T4 | Whipple | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 1 + (0) alpha in Z; 1 + (-2) alpha in Z | 0 + 1/2 Z
+T4 | Dixon | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-4) alpha in Z | 1/4 + 1/2 Z
+T4 | Whipple | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 1 + (0) alpha in Z; 1 + (-2) alpha in Z | 0 + 1/2 Z
+T4 | Dixon | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 0 + (2) alpha in Z; -1 + (5) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-4) alpha in Z | 1/4 + 1/2 Z
+T4 | Whipple | a=1, b=1, c=3*alpha, d=2*alpha + 1, e=2*alpha + 1 | 1 + (0) alpha in Z; 1 + (-2) alpha in Z | 0 + 1/2 Z
+T4 | Dixon | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | -1 + (5) alpha in Z; 0 + (2) alpha in Z | 0 + 1 Z
+T4 | Watson | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=1, b=3*alpha, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | Watson | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | Watson | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | Watson | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+T4 | Dixon | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T4 | Watson | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (1/2) alpha in Z; -1 + (2) alpha in Z | 0 + 2 Z
+T4 | Whipple | a=3*alpha, b=1, c=1, d=2*alpha + 1, e=2*alpha + 1 | 0 + (3) alpha in Z; -1 + (4) alpha in Z | 0 + 1 Z
+# T5: numerator ('alpha', '1 - alpha', '1 - alpha'), denominator ('alpha + 1', 'alpha + 1')
+T5 | two differences | pairs (num alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 1 + (0) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num alpha, den alpha + 1) | 0 + (2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | two differences | pairs (num 1 - alpha, den alpha + 1), (num 1 - alpha, den alpha + 1) | 0 + (2) alpha in Z; 0 + (2) alpha in Z | 0 + 1/2 Z
+T5 | Dixon | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 1 + (-1) alpha in Z; 1 + (-1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=alpha, b=1 - alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-1) alpha in Z | empty
+T5 | Whipple | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 1 + (-2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T5 | Dixon | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-1) alpha in Z | empty
+T5 | Whipple | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 1 + (-2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T5 | Dixon | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | -1 + (3) alpha in Z; 0 + (1) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Whipple | a=1 - alpha, b=alpha, c=1 - alpha, d=alpha + 1, e=alpha + 1 | 0 + (0) alpha in Z; -1 + (4) alpha in Z | 0 + 1/4 Z
+T5 | Dixon | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-1) alpha in Z | empty
+T5 | Whipple | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 1 + (-2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z
+T5 | Dixon | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 0 + (1) alpha in Z; -1 + (3) alpha in Z | 0 + 1 Z
+T5 | Watson | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | -1/2 + (2) alpha in Z; 1 + (-1) alpha in Z | empty
+T5 | Whipple | a=1 - alpha, b=1 - alpha, c=alpha, d=alpha + 1, e=alpha + 1 | 1 + (-2) alpha in Z; 1 + (0) alpha in Z | 0 + 1/2 Z

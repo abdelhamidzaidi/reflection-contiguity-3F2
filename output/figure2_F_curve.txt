@@ -1,0 +1,5 @@
+int: 4 of 4 differences below the floor 1e-32, max difference 0.000e+00
+half: 0 of 3 differences below the floor 1e-32, max difference 7.106e-32
+quarter: 3 of 8 differences below the floor 1e-32, max difference 1.509e-31
+third: 0 of 7 differences below the floor 1e-32, max difference 3.104e-31
+saved figures/figure2.pdf

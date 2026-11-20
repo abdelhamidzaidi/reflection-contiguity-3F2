@@ -1,0 +1,6 @@
+PSLQ at 120 digits, 17 constants, maxcoeff = 10^5: relation = None
+    tolerance = 2.45455e-91, iterations = 4417, final norm bound = 112060
+    termination: lower bound for the norm of a relation exceeded maxcoeff
+PSLQ at 240 digits, 17 constants, maxcoeff = 10^5: relation = None
+    tolerance = 2.40992e-181, iterations = 4362, final norm bound = 101071
+    termination: lower bound for the norm of a relation exceeded maxcoeff

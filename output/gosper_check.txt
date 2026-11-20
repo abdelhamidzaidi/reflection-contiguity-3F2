@@ -1,0 +1,24 @@
+h(beta+1)/h(beta) = -(beta - 1)*(alpha + beta - 1)/(beta*(alpha - beta))
+zeros of a(beta): [1, 1 - alpha]   zeros of b(beta+j): [-j, alpha - j]
+    1 = -j  requires alpha = []
+    1 = alpha - j  requires alpha = [j + 1]
+    1 - alpha = -j  requires alpha = [j + 1]
+    1 - alpha = alpha - j  requires alpha = [j/2 + 1/2]
+    -> a common zero needs alpha in N* or 2 alpha in N*; excluded when 2 alpha is not an integer
+a(beta) = alpha*beta - alpha + beta**2 - 2*beta + 1    b(beta-1) = -alpha*beta + alpha + beta**2 - 2*beta + 1
+    deg x = 0: coefficient of beta^1 is (2*alpha) * x_d
+    deg x = 1: coefficient of beta^2 is (2*alpha + 1) * x_d
+    deg x = 2: coefficient of beta^3 is (2*(alpha + 1)) * x_d
+    deg x = 3: coefficient of beta^4 is (2*alpha + 3) * x_d
+    deg x = 4: coefficient of beta^5 is (2*(alpha + 2)) * x_d
+    deg x = 5: coefficient of beta^6 is (2*alpha + 5) * x_d
+    deg x = 6: coefficient of beta^7 is (2*(alpha + 3)) * x_d
+    polynomial solutions of degree 0: []
+    polynomial solutions of degree 1: []
+    polynomial solutions of degree 2: []
+    polynomial solutions of degree 3: []
+    polynomial solutions of degree 4: []
+    polynomial solutions of degree 5: []
+    polynomial solutions of degree 6: []
+SymPy gosper_term(h, beta): None
+Hypergeometric antidifference exists: False

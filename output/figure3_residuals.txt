@@ -1,0 +1,5 @@
+panel (a): 68 of 320 grid values at the floor 1e-22
+panel (b): 43 of 80 residuals at the floor; max residual 1.789e-18
+saved figures/figure3.pdf
+max relative residual on grid (log10): -20.02;  Corollary 1 max: 1.79e-18
+worst grid point alpha=1.2033, beta=1.9500: relative residual 2.24e-40 at 40 digits
