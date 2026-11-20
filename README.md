@@ -1,5 +1,7 @@
 # Reflection, Contiguity and a Uniqueness Classification for the Hypergeometric Family 3F2(1−α, 1, 2α; α+1, 2α+1; 1)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24402578.svg)](https://doi.org/10.5281/zenodo.24402578)
+
 Python code accompanying the article
 
 > A. T. Zaidi, *Reflection, Contiguity and a Uniqueness Classification for a Functional System
@@ -11,7 +13,7 @@ Appendix A of the article describes each script; Appendix B describes the certif
 
 Author: Abdelhamid Taieb Zaidi, Department of Mathematics, College of Science, Qassim University
 (ORCID [0000-0003-1305-4959](https://orcid.org/0000-0003-1305-4959)).
-To cite this repository, use the metadata in `CITATION.cff`.
+To cite this repository, use the metadata in `CITATION.cff` or the Zenodo DOI [10.5281/zenodo.24402578](https://doi.org/10.5281/zenodo.24402578) (release v1.0.1).
 
 ## Contents
 

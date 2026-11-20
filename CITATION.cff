@@ -7,7 +7,8 @@ authors:
     given-names: Abdelhamid Taieb
     orcid: "https://orcid.org/0000-0003-1305-4959"
     affiliation: "Department of Mathematics, College of Science, Qassim University, Buraydah 51452, Saudi Arabia"
-version: 1.0.0
+version: 1.0.1
+doi: 10.5281/zenodo.24402578
 date-released: 2026-11-20
 license: MIT
 repository-code: "https://github.com/abdelhamidzaidi/reflection-contiguity-3F2"
